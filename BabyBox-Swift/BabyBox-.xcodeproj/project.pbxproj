@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72006111CB4993400A01E14 /* BB_ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72006101CB4993400A01E14 /* BB_ImageView.swift */; };
+		F72006451CB4BE5700A01E14 /* lineColor.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006121CB4BE5700A01E14 /* lineColor.png */; };
+		F72006461CB4BE5700A01E14 /* lineWidth.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006131CB4BE5700A01E14 /* lineWidth.png */; };
+		F72006471CB4BE5700A01E14 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006141CB4BE5700A01E14 /* 1@2x.png */; };
+		F72006481CB4BE5700A01E14 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006151CB4BE5700A01E14 /* 2@2x.png */; };
+		F72006491CB4BE5700A01E14 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006161CB4BE5700A01E14 /* 3@2x.png */; };
+		F720064A1CB4BE5700A01E14 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006171CB4BE5700A01E14 /* 4@2x.png */; };
+		F720064B1CB4BE5700A01E14 /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006181CB4BE5700A01E14 /* 5@2x.png */; };
+		F720064C1CB4BE5700A01E14 /* 6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006191CB4BE5700A01E14 /* 6@2x.png */; };
+		F720064D1CB4BE5700A01E14 /* 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061A1CB4BE5700A01E14 /* 7@2x.png */; };
+		F720064E1CB4BE5700A01E14 /* 8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061B1CB4BE5700A01E14 /* 8@2x.png */; };
+		F720064F1CB4BE5700A01E14 /* 9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061C1CB4BE5700A01E14 /* 9@2x.png */; };
+		F72006501CB4BE5700A01E14 /* 不爱洗澡的小猪@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061D1CB4BE5700A01E14 /* 不爱洗澡的小猪@2x.png */; };
+		F72006511CB4BE5700A01E14 /* 狗@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061E1CB4BE5700A01E14 /* 狗@2x.png */; };
+		F72006521CB4BE5700A01E14 /* 鸡@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720061F1CB4BE5700A01E14 /* 鸡@2x.png */; };
+		F72006531CB4BE5700A01E14 /* 老鼠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006201CB4BE5700A01E14 /* 老鼠@2x.png */; };
+		F72006541CB4BE5700A01E14 /* 菱形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006211CB4BE5700A01E14 /* 菱形@2x.png */; };
+		F72006551CB4BE5700A01E14 /* 鹿@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006221CB4BE5700A01E14 /* 鹿@2x.png */; };
+		F72006561CB4BE5700A01E14 /* 马@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006231CB4BE5700A01E14 /* 马@2x.png */; };
+		F72006571CB4BE5700A01E14 /* 猫@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006241CB4BE5700A01E14 /* 猫@2x.png */; };
+		F72006581CB4BE5700A01E14 /* 牛@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006251CB4BE5700A01E14 /* 牛@2x.png */; };
+		F72006591CB4BE5700A01E14 /* 漂亮的花仙子@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006261CB4BE5700A01E14 /* 漂亮的花仙子@2x.png */; };
+		F720065A1CB4BE5700A01E14 /* 三角形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006271CB4BE5700A01E14 /* 三角形@2x.png */; };
+		F720065B1CB4BE5700A01E14 /* 识@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006281CB4BE5700A01E14 /* 识@2x.png */; };
+		F720065C1CB4BE5700A01E14 /* 识动物.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006291CB4BE5700A01E14 /* 识动物.png */; };
+		F720065D1CB4BE5700A01E14 /* 识数字.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062A1CB4BE5700A01E14 /* 识数字.png */; };
+		F720065E1CB4BE5700A01E14 /* 识形状.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062B1CB4BE5700A01E14 /* 识形状.png */; };
+		F720065F1CB4BE5700A01E14 /* 识颜色.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062C1CB4BE5700A01E14 /* 识颜色.png */; };
+		F72006601CB4BE5700A01E14 /* 睡前故事@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062D1CB4BE5700A01E14 /* 睡前故事@2x.png */; };
+		F72006611CB4BE5700A01E14 /* 睡着的兔子@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062E1CB4BE5700A01E14 /* 睡着的兔子@2x.png */; };
+		F72006621CB4BE5700A01E14 /* 梯形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F720062F1CB4BE5700A01E14 /* 梯形@2x.png */; };
+		F72006631CB4BE5700A01E14 /* 听@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006301CB4BE5700A01E14 /* 听@2x.png */; };
+		F72006641CB4BE5700A01E14 /* 童话故事@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006311CB4BE5700A01E14 /* 童话故事@2x.png */; };
+		F72006651CB4BE5700A01E14 /* 我@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006321CB4BE5700A01E14 /* 我@2x.png */; };
+		F72006661CB4BE5700A01E14 /* 鸭@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006331CB4BE5700A01E14 /* 鸭@2x.png */; };
+		F72006671CB4BE5700A01E14 /* 羊@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006341CB4BE5700A01E14 /* 羊@2x.png */; };
+		F72006681CB4BE5700A01E14 /* 寓言故事@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006351CB4BE5700A01E14 /* 寓言故事@2x.png */; };
+		F72006691CB4BE5700A01E14 /* 圆形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006361CB4BE5700A01E14 /* 圆形@2x.png */; };
+		F720066A1CB4BE5700A01E14 /* 长方形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006371CB4BE5700A01E14 /* 长方形@2x.png */; };
+		F720066B1CB4BE5700A01E14 /* 正方形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006381CB4BE5700A01E14 /* 正方形@2x.png */; };
+		F720066C1CB4BE5700A01E14 /* 猪@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006391CB4BE5700A01E14 /* 猪@2x.png */; };
+		F720066D1CB4BE5700A01E14 /* fly_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063A1CB4BE5700A01E14 /* fly_1.png */; };
+		F720066E1CB4BE5700A01E14 /* fly_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063B1CB4BE5700A01E14 /* fly_2.png */; };
+		F720066F1CB4BE5700A01E14 /* fly_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063C1CB4BE5700A01E14 /* fly_3.png */; };
+		F72006701CB4BE5700A01E14 /* fly_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063D1CB4BE5700A01E14 /* fly_4.png */; };
+		F72006711CB4BE5700A01E14 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063E1CB4BE5700A01E14 /* Icon.png */; };
+		F72006721CB4BE5700A01E14 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = F720063F1CB4BE5700A01E14 /* key.png */; };
+		F72006731CB4BE5700A01E14 /* Story_BlackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006401CB4BE5700A01E14 /* Story_BlackgroundImage.png */; };
+		F72006741CB4BE5700A01E14 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006411CB4BE5700A01E14 /* user.png */; };
+		F72006751CB4BE5700A01E14 /* BabyBox.plist in Resources */ = {isa = PBXBuildFile; fileRef = F72006421CB4BE5700A01E14 /* BabyBox.plist */; };
+		F72006761CB4BE5700A01E14 /* TabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = F72006431CB4BE5700A01E14 /* TabBar.png */; };
+		F72006791CB4F5E200A01E14 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72006781CB4F5E200A01E14 /* Animations.swift */; };
+		F760FC911CB36CD3000F9DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FC901CB36CD3000F9DA6 /* AppDelegate.swift */; };
+		F760FC981CB36CD3000F9DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F760FC971CB36CD3000F9DA6 /* Assets.xcassets */; };
+		F760FC9B1CB36CD4000F9DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F760FC991CB36CD4000F9DA6 /* LaunchScreen.storyboard */; };
+		F760FCA61CB36CD4000F9DA6 /* BabyBox_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FCA51CB36CD4000F9DA6 /* BabyBox_Tests.swift */; };
+		F760FCB11CB36CD4000F9DA6 /* BabyBox_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FCB01CB36CD4000F9DA6 /* BabyBox_UITests.swift */; };
+		F760FCC21CB36DAD000F9DA6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FCC11CB36DAD000F9DA6 /* UserViewController.swift */; };
+		F760FCC41CB36DBD000F9DA6 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FCC31CB36DBD000F9DA6 /* LearnViewController.swift */; };
+		F760FCC61CB36DDC000F9DA6 /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760FCC51CB36DDC000F9DA6 /* PaintingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F760FCA21CB36CD4000F9DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F760FC851CB36CD3000F9DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F760FC8C1CB36CD3000F9DA6;
+			remoteInfo = "BabyBox-";
+		};
+		F760FCAD1CB36CD4000F9DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F760FC851CB36CD3000F9DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F760FC8C1CB36CD3000F9DA6;
+			remoteInfo = "BabyBox-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F72006101CB4993400A01E14 /* BB_ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BB_ImageView.swift; path = "BabyBox-/BB_ImageView.swift"; sourceTree = SOURCE_ROOT; };
+		F72006121CB4BE5700A01E14 /* lineColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineColor.png; sourceTree = "<group>"; };
+		F72006131CB4BE5700A01E14 /* lineWidth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineWidth.png; sourceTree = "<group>"; };
+		F72006141CB4BE5700A01E14 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		F72006151CB4BE5700A01E14 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		F72006161CB4BE5700A01E14 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		F72006171CB4BE5700A01E14 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		F72006181CB4BE5700A01E14 /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@2x.png"; sourceTree = "<group>"; };
+		F72006191CB4BE5700A01E14 /* 6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@2x.png"; sourceTree = "<group>"; };
+		F720061A1CB4BE5700A01E14 /* 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@2x.png"; sourceTree = "<group>"; };
+		F720061B1CB4BE5700A01E14 /* 8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8@2x.png"; sourceTree = "<group>"; };
+		F720061C1CB4BE5700A01E14 /* 9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9@2x.png"; sourceTree = "<group>"; };
+		F720061D1CB4BE5700A01E14 /* 不爱洗澡的小猪@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不爱洗澡的小猪@2x.png"; sourceTree = "<group>"; };
+		F720061E1CB4BE5700A01E14 /* 狗@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狗@2x.png"; sourceTree = "<group>"; };
+		F720061F1CB4BE5700A01E14 /* 鸡@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡@2x.png"; sourceTree = "<group>"; };
+		F72006201CB4BE5700A01E14 /* 老鼠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老鼠@2x.png"; sourceTree = "<group>"; };
+		F72006211CB4BE5700A01E14 /* 菱形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菱形@2x.png"; sourceTree = "<group>"; };
+		F72006221CB4BE5700A01E14 /* 鹿@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鹿@2x.png"; sourceTree = "<group>"; };
+		F72006231CB4BE5700A01E14 /* 马@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马@2x.png"; sourceTree = "<group>"; };
+		F72006241CB4BE5700A01E14 /* 猫@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猫@2x.png"; sourceTree = "<group>"; };
+		F72006251CB4BE5700A01E14 /* 牛@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牛@2x.png"; sourceTree = "<group>"; };
+		F72006261CB4BE5700A01E14 /* 漂亮的花仙子@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "漂亮的花仙子@2x.png"; sourceTree = "<group>"; };
+		F72006271CB4BE5700A01E14 /* 三角形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三角形@2x.png"; sourceTree = "<group>"; };
+		F72006281CB4BE5700A01E14 /* 识@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "识@2x.png"; sourceTree = "<group>"; };
+		F72006291CB4BE5700A01E14 /* 识动物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "识动物.png"; sourceTree = "<group>"; };
+		F720062A1CB4BE5700A01E14 /* 识数字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "识数字.png"; sourceTree = "<group>"; };
+		F720062B1CB4BE5700A01E14 /* 识形状.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "识形状.png"; sourceTree = "<group>"; };
+		F720062C1CB4BE5700A01E14 /* 识颜色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "识颜色.png"; sourceTree = "<group>"; };
+		F720062D1CB4BE5700A01E14 /* 睡前故事@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "睡前故事@2x.png"; sourceTree = "<group>"; };
+		F720062E1CB4BE5700A01E14 /* 睡着的兔子@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "睡着的兔子@2x.png"; sourceTree = "<group>"; };
+		F720062F1CB4BE5700A01E14 /* 梯形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梯形@2x.png"; sourceTree = "<group>"; };
+		F72006301CB4BE5700A01E14 /* 听@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "听@2x.png"; sourceTree = "<group>"; };
+		F72006311CB4BE5700A01E14 /* 童话故事@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "童话故事@2x.png"; sourceTree = "<group>"; };
+		F72006321CB4BE5700A01E14 /* 我@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我@2x.png"; sourceTree = "<group>"; };
+		F72006331CB4BE5700A01E14 /* 鸭@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸭@2x.png"; sourceTree = "<group>"; };
+		F72006341CB4BE5700A01E14 /* 羊@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "羊@2x.png"; sourceTree = "<group>"; };
+		F72006351CB4BE5700A01E14 /* 寓言故事@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寓言故事@2x.png"; sourceTree = "<group>"; };
+		F72006361CB4BE5700A01E14 /* 圆形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆形@2x.png"; sourceTree = "<group>"; };
+		F72006371CB4BE5700A01E14 /* 长方形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长方形@2x.png"; sourceTree = "<group>"; };
+		F72006381CB4BE5700A01E14 /* 正方形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正方形@2x.png"; sourceTree = "<group>"; };
+		F72006391CB4BE5700A01E14 /* 猪@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪@2x.png"; sourceTree = "<group>"; };
+		F720063A1CB4BE5700A01E14 /* fly_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly_1.png; sourceTree = "<group>"; };
+		F720063B1CB4BE5700A01E14 /* fly_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly_2.png; sourceTree = "<group>"; };
+		F720063C1CB4BE5700A01E14 /* fly_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly_3.png; sourceTree = "<group>"; };
+		F720063D1CB4BE5700A01E14 /* fly_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly_4.png; sourceTree = "<group>"; };
+		F720063E1CB4BE5700A01E14 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F720063F1CB4BE5700A01E14 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		F72006401CB4BE5700A01E14 /* Story_BlackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Story_BlackgroundImage.png; sourceTree = "<group>"; };
+		F72006411CB4BE5700A01E14 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		F72006421CB4BE5700A01E14 /* BabyBox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BabyBox.plist; sourceTree = "<group>"; };
+		F72006431CB4BE5700A01E14 /* TabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar.png; sourceTree = "<group>"; };
+		F72006781CB4F5E200A01E14 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		F760FC8D1CB36CD3000F9DA6 /* BabyBox-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BabyBox-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F760FC901CB36CD3000F9DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F760FC971CB36CD3000F9DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F760FC9A1CB36CD4000F9DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F760FC9C1CB36CD4000F9DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F760FCA11CB36CD4000F9DA6 /* BabyBox-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabyBox-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F760FCA51CB36CD4000F9DA6 /* BabyBox_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBox_Tests.swift; sourceTree = "<group>"; };
+		F760FCA71CB36CD4000F9DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F760FCAC1CB36CD4000F9DA6 /* BabyBox-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabyBox-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F760FCB01CB36CD4000F9DA6 /* BabyBox_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBox_UITests.swift; sourceTree = "<group>"; };
+		F760FCB21CB36CD4000F9DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F760FCC11CB36DAD000F9DA6 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		F760FCC31CB36DBD000F9DA6 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		F760FCC51CB36DDC000F9DA6 /* PaintingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F760FC8A1CB36CD3000F9DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FC9E1CB36CD4000F9DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FCA91CB36CD4000F9DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72006441CB4BE5700A01E14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F72006121CB4BE5700A01E14 /* lineColor.png */,
+				F72006131CB4BE5700A01E14 /* lineWidth.png */,
+				F72006141CB4BE5700A01E14 /* 1@2x.png */,
+				F72006151CB4BE5700A01E14 /* 2@2x.png */,
+				F72006161CB4BE5700A01E14 /* 3@2x.png */,
+				F72006171CB4BE5700A01E14 /* 4@2x.png */,
+				F72006181CB4BE5700A01E14 /* 5@2x.png */,
+				F72006191CB4BE5700A01E14 /* 6@2x.png */,
+				F720061A1CB4BE5700A01E14 /* 7@2x.png */,
+				F720061B1CB4BE5700A01E14 /* 8@2x.png */,
+				F720061C1CB4BE5700A01E14 /* 9@2x.png */,
+				F720061D1CB4BE5700A01E14 /* 不爱洗澡的小猪@2x.png */,
+				F720061E1CB4BE5700A01E14 /* 狗@2x.png */,
+				F720061F1CB4BE5700A01E14 /* 鸡@2x.png */,
+				F72006201CB4BE5700A01E14 /* 老鼠@2x.png */,
+				F72006211CB4BE5700A01E14 /* 菱形@2x.png */,
+				F72006221CB4BE5700A01E14 /* 鹿@2x.png */,
+				F72006231CB4BE5700A01E14 /* 马@2x.png */,
+				F72006241CB4BE5700A01E14 /* 猫@2x.png */,
+				F72006251CB4BE5700A01E14 /* 牛@2x.png */,
+				F72006261CB4BE5700A01E14 /* 漂亮的花仙子@2x.png */,
+				F72006271CB4BE5700A01E14 /* 三角形@2x.png */,
+				F72006281CB4BE5700A01E14 /* 识@2x.png */,
+				F72006291CB4BE5700A01E14 /* 识动物.png */,
+				F720062A1CB4BE5700A01E14 /* 识数字.png */,
+				F720062B1CB4BE5700A01E14 /* 识形状.png */,
+				F720062C1CB4BE5700A01E14 /* 识颜色.png */,
+				F720062D1CB4BE5700A01E14 /* 睡前故事@2x.png */,
+				F720062E1CB4BE5700A01E14 /* 睡着的兔子@2x.png */,
+				F720062F1CB4BE5700A01E14 /* 梯形@2x.png */,
+				F72006301CB4BE5700A01E14 /* 听@2x.png */,
+				F72006311CB4BE5700A01E14 /* 童话故事@2x.png */,
+				F72006321CB4BE5700A01E14 /* 我@2x.png */,
+				F72006331CB4BE5700A01E14 /* 鸭@2x.png */,
+				F72006341CB4BE5700A01E14 /* 羊@2x.png */,
+				F72006351CB4BE5700A01E14 /* 寓言故事@2x.png */,
+				F72006361CB4BE5700A01E14 /* 圆形@2x.png */,
+				F72006371CB4BE5700A01E14 /* 长方形@2x.png */,
+				F72006381CB4BE5700A01E14 /* 正方形@2x.png */,
+				F72006391CB4BE5700A01E14 /* 猪@2x.png */,
+				F720063A1CB4BE5700A01E14 /* fly_1.png */,
+				F720063B1CB4BE5700A01E14 /* fly_2.png */,
+				F720063C1CB4BE5700A01E14 /* fly_3.png */,
+				F720063D1CB4BE5700A01E14 /* fly_4.png */,
+				F720063E1CB4BE5700A01E14 /* Icon.png */,
+				F720063F1CB4BE5700A01E14 /* key.png */,
+				F72006401CB4BE5700A01E14 /* Story_BlackgroundImage.png */,
+				F72006411CB4BE5700A01E14 /* user.png */,
+				F72006421CB4BE5700A01E14 /* BabyBox.plist */,
+				F72006431CB4BE5700A01E14 /* TabBar.png */,
+			);
+			name = Resources;
+			path = "../../../5、搭建框架四故事/BabyBox/BabyBox/Resources";
+			sourceTree = "<group>";
+		};
+		F72006771CB4F51900A01E14 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F72006781CB4F5E200A01E14 /* Animations.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F760FC841CB36CD3000F9DA6 = {
+			isa = PBXGroup;
+			children = (
+				F760FC8F1CB36CD3000F9DA6 /* BabyBox- */,
+				F760FCA41CB36CD4000F9DA6 /* BabyBox-Tests */,
+				F760FCAF1CB36CD4000F9DA6 /* BabyBox-UITests */,
+				F760FC8E1CB36CD3000F9DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F760FC8E1CB36CD3000F9DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F760FC8D1CB36CD3000F9DA6 /* BabyBox-.app */,
+				F760FCA11CB36CD4000F9DA6 /* BabyBox-Tests.xctest */,
+				F760FCAC1CB36CD4000F9DA6 /* BabyBox-UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F760FC8F1CB36CD3000F9DA6 /* BabyBox- */ = {
+			isa = PBXGroup;
+			children = (
+				F72006771CB4F51900A01E14 /* Tools */,
+				F72006441CB4BE5700A01E14 /* Resources */,
+				F760FCBE1CB36D83000F9DA6 /* Controller */,
+				F760FCBF1CB36D83000F9DA6 /* Model */,
+				F760FCC01CB36D83000F9DA6 /* View */,
+				F760FC901CB36CD3000F9DA6 /* AppDelegate.swift */,
+				F760FC971CB36CD3000F9DA6 /* Assets.xcassets */,
+				F760FC991CB36CD4000F9DA6 /* LaunchScreen.storyboard */,
+				F760FC9C1CB36CD4000F9DA6 /* Info.plist */,
+			);
+			path = "BabyBox-";
+			sourceTree = "<group>";
+		};
+		F760FCA41CB36CD4000F9DA6 /* BabyBox-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F760FCA51CB36CD4000F9DA6 /* BabyBox_Tests.swift */,
+				F760FCA71CB36CD4000F9DA6 /* Info.plist */,
+			);
+			path = "BabyBox-Tests";
+			sourceTree = "<group>";
+		};
+		F760FCAF1CB36CD4000F9DA6 /* BabyBox-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F760FCB01CB36CD4000F9DA6 /* BabyBox_UITests.swift */,
+				F760FCB21CB36CD4000F9DA6 /* Info.plist */,
+			);
+			path = "BabyBox-UITests";
+			sourceTree = "<group>";
+		};
+		F760FCBE1CB36D83000F9DA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F760FCC11CB36DAD000F9DA6 /* UserViewController.swift */,
+				F760FCC31CB36DBD000F9DA6 /* LearnViewController.swift */,
+				F760FCC51CB36DDC000F9DA6 /* PaintingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F760FCBF1CB36D83000F9DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F760FCC01CB36D83000F9DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F72006101CB4993400A01E14 /* BB_ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F760FC8C1CB36CD3000F9DA6 /* BabyBox- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F760FCB51CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-" */;
+			buildPhases = (
+				F760FC891CB36CD3000F9DA6 /* Sources */,
+				F760FC8A1CB36CD3000F9DA6 /* Frameworks */,
+				F760FC8B1CB36CD3000F9DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BabyBox-";
+			productName = "BabyBox-";
+			productReference = F760FC8D1CB36CD3000F9DA6 /* BabyBox-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F760FCA01CB36CD4000F9DA6 /* BabyBox-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F760FCB81CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-Tests" */;
+			buildPhases = (
+				F760FC9D1CB36CD4000F9DA6 /* Sources */,
+				F760FC9E1CB36CD4000F9DA6 /* Frameworks */,
+				F760FC9F1CB36CD4000F9DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F760FCA31CB36CD4000F9DA6 /* PBXTargetDependency */,
+			);
+			name = "BabyBox-Tests";
+			productName = "BabyBox-Tests";
+			productReference = F760FCA11CB36CD4000F9DA6 /* BabyBox-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F760FCAB1CB36CD4000F9DA6 /* BabyBox-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F760FCBB1CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-UITests" */;
+			buildPhases = (
+				F760FCA81CB36CD4000F9DA6 /* Sources */,
+				F760FCA91CB36CD4000F9DA6 /* Frameworks */,
+				F760FCAA1CB36CD4000F9DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F760FCAE1CB36CD4000F9DA6 /* PBXTargetDependency */,
+			);
+			name = "BabyBox-UITests";
+			productName = "BabyBox-UITests";
+			productReference = F760FCAC1CB36CD4000F9DA6 /* BabyBox-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F760FC851CB36CD3000F9DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					F760FC8C1CB36CD3000F9DA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F760FCA01CB36CD4000F9DA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F760FC8C1CB36CD3000F9DA6;
+					};
+					F760FCAB1CB36CD4000F9DA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F760FC8C1CB36CD3000F9DA6;
+					};
+				};
+			};
+			buildConfigurationList = F760FC881CB36CD3000F9DA6 /* Build configuration list for PBXProject "BabyBox-" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F760FC841CB36CD3000F9DA6;
+			productRefGroup = F760FC8E1CB36CD3000F9DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F760FC8C1CB36CD3000F9DA6 /* BabyBox- */,
+				F760FCA01CB36CD4000F9DA6 /* BabyBox-Tests */,
+				F760FCAB1CB36CD4000F9DA6 /* BabyBox-UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F760FC8B1CB36CD3000F9DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720064B1CB4BE5700A01E14 /* 5@2x.png in Resources */,
+				F720066A1CB4BE5700A01E14 /* 长方形@2x.png in Resources */,
+				F720065B1CB4BE5700A01E14 /* 识@2x.png in Resources */,
+				F72006721CB4BE5700A01E14 /* key.png in Resources */,
+				F72006641CB4BE5700A01E14 /* 童话故事@2x.png in Resources */,
+				F72006461CB4BE5700A01E14 /* lineWidth.png in Resources */,
+				F72006631CB4BE5700A01E14 /* 听@2x.png in Resources */,
+				F720064A1CB4BE5700A01E14 /* 4@2x.png in Resources */,
+				F72006541CB4BE5700A01E14 /* 菱形@2x.png in Resources */,
+				F720065C1CB4BE5700A01E14 /* 识动物.png in Resources */,
+				F72006601CB4BE5700A01E14 /* 睡前故事@2x.png in Resources */,
+				F760FC9B1CB36CD4000F9DA6 /* LaunchScreen.storyboard in Resources */,
+				F720066C1CB4BE5700A01E14 /* 猪@2x.png in Resources */,
+				F720066D1CB4BE5700A01E14 /* fly_1.png in Resources */,
+				F72006671CB4BE5700A01E14 /* 羊@2x.png in Resources */,
+				F720064D1CB4BE5700A01E14 /* 7@2x.png in Resources */,
+				F72006471CB4BE5700A01E14 /* 1@2x.png in Resources */,
+				F72006701CB4BE5700A01E14 /* fly_4.png in Resources */,
+				F72006521CB4BE5700A01E14 /* 鸡@2x.png in Resources */,
+				F72006481CB4BE5700A01E14 /* 2@2x.png in Resources */,
+				F72006531CB4BE5700A01E14 /* 老鼠@2x.png in Resources */,
+				F720065F1CB4BE5700A01E14 /* 识颜色.png in Resources */,
+				F72006591CB4BE5700A01E14 /* 漂亮的花仙子@2x.png in Resources */,
+				F72006551CB4BE5700A01E14 /* 鹿@2x.png in Resources */,
+				F720065A1CB4BE5700A01E14 /* 三角形@2x.png in Resources */,
+				F72006751CB4BE5700A01E14 /* BabyBox.plist in Resources */,
+				F760FC981CB36CD3000F9DA6 /* Assets.xcassets in Resources */,
+				F72006501CB4BE5700A01E14 /* 不爱洗澡的小猪@2x.png in Resources */,
+				F720064C1CB4BE5700A01E14 /* 6@2x.png in Resources */,
+				F72006571CB4BE5700A01E14 /* 猫@2x.png in Resources */,
+				F72006611CB4BE5700A01E14 /* 睡着的兔子@2x.png in Resources */,
+				F720066E1CB4BE5700A01E14 /* fly_2.png in Resources */,
+				F72006691CB4BE5700A01E14 /* 圆形@2x.png in Resources */,
+				F720064E1CB4BE5700A01E14 /* 8@2x.png in Resources */,
+				F72006621CB4BE5700A01E14 /* 梯形@2x.png in Resources */,
+				F72006731CB4BE5700A01E14 /* Story_BlackgroundImage.png in Resources */,
+				F720064F1CB4BE5700A01E14 /* 9@2x.png in Resources */,
+				F72006741CB4BE5700A01E14 /* user.png in Resources */,
+				F72006651CB4BE5700A01E14 /* 我@2x.png in Resources */,
+				F720066B1CB4BE5700A01E14 /* 正方形@2x.png in Resources */,
+				F72006711CB4BE5700A01E14 /* Icon.png in Resources */,
+				F720065D1CB4BE5700A01E14 /* 识数字.png in Resources */,
+				F72006511CB4BE5700A01E14 /* 狗@2x.png in Resources */,
+				F72006581CB4BE5700A01E14 /* 牛@2x.png in Resources */,
+				F720065E1CB4BE5700A01E14 /* 识形状.png in Resources */,
+				F720066F1CB4BE5700A01E14 /* fly_3.png in Resources */,
+				F72006681CB4BE5700A01E14 /* 寓言故事@2x.png in Resources */,
+				F72006561CB4BE5700A01E14 /* 马@2x.png in Resources */,
+				F72006491CB4BE5700A01E14 /* 3@2x.png in Resources */,
+				F72006761CB4BE5700A01E14 /* TabBar.png in Resources */,
+				F72006661CB4BE5700A01E14 /* 鸭@2x.png in Resources */,
+				F72006451CB4BE5700A01E14 /* lineColor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FC9F1CB36CD4000F9DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FCAA1CB36CD4000F9DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F760FC891CB36CD3000F9DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F760FCC61CB36DDC000F9DA6 /* PaintingViewController.swift in Sources */,
+				F72006111CB4993400A01E14 /* BB_ImageView.swift in Sources */,
+				F72006791CB4F5E200A01E14 /* Animations.swift in Sources */,
+				F760FC911CB36CD3000F9DA6 /* AppDelegate.swift in Sources */,
+				F760FCC21CB36DAD000F9DA6 /* UserViewController.swift in Sources */,
+				F760FCC41CB36DBD000F9DA6 /* LearnViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FC9D1CB36CD4000F9DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F760FCA61CB36CD4000F9DA6 /* BabyBox_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F760FCA81CB36CD4000F9DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F760FCB11CB36CD4000F9DA6 /* BabyBox_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F760FCA31CB36CD4000F9DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F760FC8C1CB36CD3000F9DA6 /* BabyBox- */;
+			targetProxy = F760FCA21CB36CD4000F9DA6 /* PBXContainerItemProxy */;
+		};
+		F760FCAE1CB36CD4000F9DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F760FC8C1CB36CD3000F9DA6 /* BabyBox- */;
+			targetProxy = F760FCAD1CB36CD4000F9DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F760FC991CB36CD4000F9DA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F760FC9A1CB36CD4000F9DA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F760FCB31CB36CD4000F9DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F760FCB41CB36CD4000F9DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F760FCB61CB36CD4000F9DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BabyBox-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F760FCB71CB36CD4000F9DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BabyBox-/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F760FCB91CB36CD4000F9DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BabyBox-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyBox-.app/BabyBox-";
+			};
+			name = Debug;
+		};
+		F760FCBA1CB36CD4000F9DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BabyBox-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyBox-.app/BabyBox-";
+			};
+			name = Release;
+		};
+		F760FCBC1CB36CD4000F9DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BabyBox-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BabyBox-";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F760FCBD1CB36CD4000F9DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BabyBox-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wp.BabyBox-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BabyBox-";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F760FC881CB36CD3000F9DA6 /* Build configuration list for PBXProject "BabyBox-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760FCB31CB36CD4000F9DA6 /* Debug */,
+				F760FCB41CB36CD4000F9DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F760FCB51CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760FCB61CB36CD4000F9DA6 /* Debug */,
+				F760FCB71CB36CD4000F9DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F760FCB81CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760FCB91CB36CD4000F9DA6 /* Debug */,
+				F760FCBA1CB36CD4000F9DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F760FCBB1CB36CD4000F9DA6 /* Build configuration list for PBXNativeTarget "BabyBox-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760FCBC1CB36CD4000F9DA6 /* Debug */,
+				F760FCBD1CB36CD4000F9DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F760FC851CB36CD3000F9DA6 /* Project object */;
+}
